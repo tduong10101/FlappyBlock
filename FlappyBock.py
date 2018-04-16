@@ -70,7 +70,7 @@ def game_loop():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-            if event.type == pygame.KEYDOWN and event.key == pygame.K_UP:
+            if (event.type == pygame.KEYDOWN and event.key == pygame.K_UP) or event.type == pygame.MOUSEBUTTONDOWN:
                 gravity = -75
 
         if pos_x + fly_x < main_width/3:
