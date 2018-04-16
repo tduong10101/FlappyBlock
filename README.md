@@ -1,5 +1,5 @@
 # FlappyBlock
-Pygame project inspire from the game __FlappyBird__. Use up arrow key to fly up.
+Pygame project inspire from the game __FlappyBird__. Use up arrow key or click any mouse button to fly up.
 
 ##Screen shot
 
